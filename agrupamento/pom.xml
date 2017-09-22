@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.redhat</groupId>
   <artifactId>agrupamento</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>kjar</packaging>
   <name>agrupamento</name>
   <dependencies>
