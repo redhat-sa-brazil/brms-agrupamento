@@ -4,14 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-rule "StartProcess"
+rule "StartProcessAgrupamento"
 
-    ruleflow-group "start"
+    ruleflow-group "startAgrupamento"
 	no-loop true
 	lock-on-active true
 
     when
-        $w : Wrapper( )
+        $w : WrapperAgrupamento( )
     then
         System.out.println("INICIANDO PROCESSO PARA TESTE UNITARIO DO AGRUPAMENTO");
         Map params = new HashMap();
