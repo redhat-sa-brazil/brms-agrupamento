@@ -21,6 +21,6 @@
     <imports/>
   </imports>
   <ksessions>
-    <string>agrupamentoStatelessSession</string>
+    <string>agrupamentoStatefulSession</string>
   </ksessions>
 </scenario>
