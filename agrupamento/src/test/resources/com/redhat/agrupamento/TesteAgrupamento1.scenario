@@ -26,53 +26,25 @@
       <isModify>false</isModify>
     </fact-data>
     <fact-data>
-      <type>WrapperAgrupamento</type>
+      <type>Recebimento</type>
       <fieldData>
         <field-data>
-          <name>operacao</name>
-          <value>=o2</value>
-          <nature>2</nature>
+          <name>origem</name>
+          <value>A</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>recebimento</name>
+          <value>1</value>
+          <nature>4</nature>
         </field-data>
       </fieldData>
-      <name>w</name>
+      <name>r1</name>
       <isModify>false</isModify>
     </fact-data>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>startAgrupamento</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <fact-data>
       <type>Calculo</type>
       <fieldData>
-        <field-data>
-          <name>scoreOrigem</name>
-          <value>4.0</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
-          <name>scoreDestino</name>
-          <value>1.0</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
-          <name>segmentoDestino</name>
-          <value>Segmento.GRANDES_EMPRESAS</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
-          <name>ratingDestino</name>
-          <value>Rating.BOM</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
-          <name>setorOrigem</name>
-          <value>SETOR_PETROLEO</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
-          <name>pagamento</name>
-          <value>6</value>
-          <nature>4</nature>
-        </field-data>
         <field-data>
           <fieldName>recebimentos</fieldName>
           <fact>
@@ -81,7 +53,7 @@
           </fact>
         </field-data>
       </fieldData>
-      <name>c</name>
+      <name>c1</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
@@ -124,6 +96,9 @@
       </org.drools.workbench.models.datamodel.imports.Import>
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>com.redhat.impacto.Calculo</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.redhat.impacto.Recebimento</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
