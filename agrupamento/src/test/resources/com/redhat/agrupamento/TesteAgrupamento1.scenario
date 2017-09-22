@@ -3,22 +3,21 @@
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
-    <fact-data>
-      <type>WrapperAgrupamento</type>
-      <fieldData/>
-      <name>w</name>
-      <isModify>false</isModify>
-    </fact-data>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>startAgrupamento</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>6</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
   </fixtures>
+  <lastRunResult>2017-09-22 15:27:26.890 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.agrupamento</packageName>
   <imports>
-    <imports/>
+    <imports>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.redhat.tesouraria.Operacao</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+    </imports>
   </imports>
   <ksessions>
     <string>agrupamentoStatefulSession</string>
