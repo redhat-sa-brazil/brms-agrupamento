@@ -38,10 +38,10 @@
       <isModify>false</isModify>
     </fact-data>
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>start</name>
+      <name>startAgrupamento</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>42</executionTimeResult>
+      <executionTimeResult>43</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -78,7 +78,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-09-22 15:19:09.724 UTC</lastRunResult>
+  <lastRunResult>2017-09-22 15:24:04.945 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.redhat.agrupamento</packageName>
