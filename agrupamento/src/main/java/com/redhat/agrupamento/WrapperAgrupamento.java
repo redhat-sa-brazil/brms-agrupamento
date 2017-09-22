@@ -11,8 +11,6 @@ public class WrapperAgrupamento implements java.io.Serializable
 
    private com.redhat.tesouraria.Operacao operacao;
 
-   private com.redhat.impacto.Calculo calculo;
-
    public WrapperAgrupamento()
    {
    }
@@ -27,21 +25,9 @@ public class WrapperAgrupamento implements java.io.Serializable
       this.operacao = operacao;
    }
 
-   public com.redhat.impacto.Calculo getCalculo()
-   {
-      return this.calculo;
-   }
-
-   public void setCalculo(com.redhat.impacto.Calculo calculo)
-   {
-      this.calculo = calculo;
-   }
-
-   public WrapperAgrupamento(com.redhat.tesouraria.Operacao operacao,
-         com.redhat.impacto.Calculo calculo)
+   public WrapperAgrupamento(com.redhat.tesouraria.Operacao operacao)
    {
       this.operacao = operacao;
-      this.calculo = calculo;
    }
 
 }
