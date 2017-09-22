@@ -26,36 +26,20 @@
       <isModify>false</isModify>
     </fact-data>
     <fact-data>
-      <type>Recebimento</type>
+      <type>WrapperAgrupamento</type>
       <fieldData>
         <field-data>
-          <name>origem</name>
-          <value>A</value>
-          <nature>4</nature>
-        </field-data>
-        <field-data>
-          <name>recebimento</name>
-          <value>1</value>
-          <nature>4</nature>
+          <name>operacao</name>
+          <value>=o2</value>
+          <nature>2</nature>
         </field-data>
       </fieldData>
-      <name>r1</name>
+      <name>w</name>
       <isModify>false</isModify>
     </fact-data>
-    <fact-data>
-      <type>Calculo</type>
-      <fieldData>
-        <field-data>
-          <fieldName>recebimentos</fieldName>
-          <fact>
-            <type>Collection</type>
-            <fieldData/>
-          </fact>
-        </field-data>
-      </fieldData>
-      <name>c1</name>
-      <isModify>false</isModify>
-    </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>startAgrupamento</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>6</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
@@ -72,13 +56,13 @@
           <fieldName>decisaoProduto</fieldName>
           <expected>DESCARTAR</expected>
           <operator>==</operator>
-          <nature>1</nature>
+          <nature>0</nature>
         </expect-field>
         <expect-field>
           <fieldName>decisaoOperador</fieldName>
           <expected>DESCARTAR</expected>
           <operator>==</operator>
-          <nature>1</nature>
+          <nature>0</nature>
         </expect-field>
       </fieldValues>
       <name>o2</name>
@@ -93,12 +77,6 @@
     <imports>
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>com.redhat.tesouraria.Operacao</type>
-      </org.drools.workbench.models.datamodel.imports.Import>
-      <org.drools.workbench.models.datamodel.imports.Import>
-        <type>com.redhat.impacto.Calculo</type>
-      </org.drools.workbench.models.datamodel.imports.Import>
-      <org.drools.workbench.models.datamodel.imports.Import>
-        <type>com.redhat.impacto.Recebimento</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
