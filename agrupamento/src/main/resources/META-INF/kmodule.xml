@@ -1,1 +1,6 @@
-<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="agrupamentoBase" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.tesouraria" includes="tesourariaBase">
+    <ksession name="agrupamentoStatelessSession" type="stateless" default="false" clockType="realtime"/>
+    <ksession name="agrupamentoStatefulSession" type="stateful" default="false" clockType="realtime"/>
+  </kbase>
+</kmodule>
