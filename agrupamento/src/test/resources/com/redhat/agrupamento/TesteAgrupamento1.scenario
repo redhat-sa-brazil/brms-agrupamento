@@ -40,6 +40,50 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>startAgrupamento</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+    <fact-data>
+      <type>Calculo</type>
+      <fieldData>
+        <field-data>
+          <name>scoreOrigem</name>
+          <value>4.0</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>scoreDestino</name>
+          <value>1.0</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>segmentoDestino</name>
+          <value>Segmento.GRANDES_EMPRESAS</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>ratingDestino</name>
+          <value>Rating.BOM</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>setorOrigem</name>
+          <value>SETOR_PETROLEO</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>pagamento</name>
+          <value>6</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <fieldName>recebimentos</fieldName>
+          <fact>
+            <type>Collection</type>
+            <fieldData/>
+          </fact>
+        </field-data>
+      </fieldData>
+      <name>c</name>
+      <isModify>false</isModify>
+    </fact-data>
     <execution-trace>
       <executionTimeResult>6</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
@@ -56,13 +100,13 @@
           <fieldName>decisaoProduto</fieldName>
           <expected>DESCARTAR</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
         <expect-field>
           <fieldName>decisaoOperador</fieldName>
           <expected>DESCARTAR</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>o2</name>
@@ -77,6 +121,9 @@
     <imports>
       <org.drools.workbench.models.datamodel.imports.Import>
         <type>com.redhat.tesouraria.Operacao</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.redhat.impacto.Calculo</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
